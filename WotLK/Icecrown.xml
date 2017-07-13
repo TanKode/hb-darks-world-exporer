@@ -1,0 +1,56 @@
+<HBProfile>
+<Name></Name>
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>1</MinLevel>
+<MaxLevel>91</MaxLevel>
+<Factions>99999</Factions>
+
+<MailGrey>false</MailGrey>
+<MailWhite>false</MailWhite>
+<MailGreen>false</MailGreen>
+<MailBlue>false</MailBlue>
+<MailPurple>false</MailPurple>
+
+<SellGrey>false</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Blackspots>
+</Blackspots>
+
+<QuestOrder>
+	<!-- <CustomBehavior File="UserSettings" LootMobs="False" TrainNewSkills="False" LearnFlightPaths="False" PullDistance="10" /> -->
+
+	<!-- Begin Pathing -->
+     <CustomBehavior File="FlyTo" X="6302.837" Y="3.866024" Z="996.1682" />
+     <CustomBehavior File="FlyTo" X="6632.328" Y="553.7344" Z="968.8975" />
+     <CustomBehavior File="FlyTo" X="5554.528" Y="2100.479" Z="1625.07" />
+     <CustomBehavior File="FlyTo" X="5678.024" Y="1899.949" Z="1616.192" />
+     <CustomBehavior File="FlyTo" X="6727.322" Y="1122.287" Z="461.4443" />
+     <CustomBehavior File="FlyTo" X="7095.549" Y="1860.643" Z="637.7982" />
+     <CustomBehavior File="FlyTo" X="7540.76" Y="1516.437" Z="706.1492" />
+     <CustomBehavior File="FlyTo" X="7624.075" Y="737.3638" Z="725.6268" />
+     <CustomBehavior File="FlyTo" X="8072.413" Y="2056.27" Z="779.5522" />
+     <CustomBehavior File="FlyTo" X="8085.08" Y="2234.308" Z="772.8683" />
+     <CustomBehavior File="FlyTo" X="8432.249" Y="2578.481" Z="839.2657" />
+     <CustomBehavior File="FlyTo" X="8394.774" Y="3129.473" Z="854.0707" />
+     <CustomBehavior File="FlyTo" X="7895.265" Y="3557.471" Z="1002.347" />
+     <CustomBehavior File="FlyTo" X="7385.141" Y="4163.205" Z="1039.174" />
+     <CustomBehavior File="FlyTo" X="7547.87" Y="4674.079" Z="1121.638" />
+     <CustomBehavior File="FlyTo" X="7046.86" Y="2717.511" Z="1277.806" />
+     <CustomBehavior File="FlyTo" X="6883.869" Y="2849.365" Z="1256.915" />
+     <CustomBehavior File="FlyTo" X="6635.103" Y="3380.43" Z="1216.27" />
+     <CustomBehavior File="FlyTo" X="6557.528" Y="2961.258" Z="1213.702" />
+     <CustomBehavior File="FlyTo" X="6457.828" Y="2415.483" Z="1218.544" />
+</QuestOrder>
+</HBProfile>

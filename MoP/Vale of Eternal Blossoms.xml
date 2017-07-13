@@ -1,0 +1,65 @@
+<HBProfile>
+<Name>Vale of Eternal Blossoms</Name>
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>1</MinLevel>
+<MaxLevel>91</MaxLevel>
+<Factions>99999</Factions>
+
+<MailGrey>false</MailGrey>
+<MailWhite>false</MailWhite>
+<MailGreen>false</MailGreen>
+<MailBlue>false</MailBlue>
+<MailPurple>false</MailPurple>
+
+<SellGrey>false</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Blackspots>
+</Blackspots>
+
+<QuestOrder>
+	<!-- <CustomBehavior File="UserSettings" LootMobs="False" TrainNewSkills="False" LearnFlightPaths="False" PullDistance="10" /> -->
+	<!-- Check if full achieve completed. -->
+	<If Condition="IsAchievementCompleted(6979)">
+		<CustomBehavior File="Message" Text="Explore Vale of Eternal Blossoms Complete, Switching Profiles." LogColor="Orange" />
+		<CustomBehavior File="LoadProfile" ProfileName="Not-Implemented.xml" />
+	</If>
+	<!-- Else Explore -->
+	<If Condition="!(IsAchievementCompleted(6979))">
+		<CustomBehavior File="Message" Text="Explore Vale of Eternal Blossoms Incomplete, Exploring Vale of Eternal Blossoms." />
+		<!-- Begin Pathing -->
+		 <CustomBehavior File="FlyTo" X="1541.942" Y="889.1282" Z="694.9823" />
+		 <CustomBehavior File="FlyTo" X="1506.407" Y="740.3843" Z="677.5834" />
+		 <CustomBehavior File="FlyTo" X="1457.843" Y="528.4779" Z="669.0413" />
+		 <CustomBehavior File="FlyTo" X="943.3834" Y="413.3055" Z="624.9714" />
+		 <CustomBehavior File="FlyTo" X="862.4385" Y="857.1906" Z="608.6353" />
+		 <CustomBehavior File="FlyTo" X="824.7923" Y="1160.863" Z="600.4406" />
+		 <CustomBehavior File="FlyTo" X="818.6033" Y="1311.12" Z="590.2062" />
+		 <CustomBehavior File="FlyTo" X="824.2176" Y="1329.628" Z="587.2985" />
+		 <CustomBehavior File="FlyTo" X="956.4667" Y="1372.979" Z="571.9055" />
+		 <CustomBehavior File="FlyTo" X="1097.226" Y="1402.536" Z="565.2654" />
+		 <CustomBehavior File="FlyTo" X="1331.146" Y="1440.453" Z="559.5273" />
+		 <CustomBehavior File="FlyTo" X="1541.951" Y="1445.051" Z="559.6643" />
+		 <CustomBehavior File="FlyTo" X="1568.765" Y="1683.936" Z="555.7902" />
+		 <CustomBehavior File="FlyTo" X="1461.912" Y="1734.892" Z="562.7956" />
+		 <CustomBehavior File="FlyTo" X="1268.37" Y="2056.72" Z="469.2552" />
+		 <CustomBehavior File="FlyTo" X="1187.14" Y="2190.125" Z="464.9482" />
+		 <CustomBehavior File="FlyTo" X="1074.303" Y="2117.178" Z="463.2089" />
+		 <CustomBehavior File="FlyTo" X="958.8812" Y="2070.565" Z="469.6723" />
+		 <CustomBehavior File="FlyTo" X="843.882" Y="2116.931" Z="473.2441" />
+		 <CustomBehavior File="FlyTo" X="722.2691" Y="1738.863" Z="490.0765" />
+		 <CustomBehavior File="FlyTo" X="698.3003" Y="1620.669" Z="493.8665" />
+  </If>
+</QuestOrder>
+</HBProfile>

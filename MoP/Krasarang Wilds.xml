@@ -1,0 +1,69 @@
+<HBProfile>
+<Name>Krasarang Wilds</Name>
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>1</MinLevel>
+<MaxLevel>91</MaxLevel>
+<Factions>99999</Factions>
+
+<MailGrey>false</MailGrey>
+<MailWhite>false</MailWhite>
+<MailGreen>false</MailGreen>
+<MailBlue>false</MailBlue>
+<MailPurple>false</MailPurple>
+
+<SellGrey>false</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Blackspots>
+</Blackspots>
+
+<QuestOrder>
+	<!-- <CustomBehavior File="UserSettings" LootMobs="False" TrainNewSkills="False" LearnFlightPaths="False" PullDistance="10" /> -->
+	<!-- Check if full achieve completed. -->
+	<If Condition="IsAchievementCompleted(6975)">
+		<CustomBehavior File="Message" Text="Explore Krasarang Wilds Complete, Switching Profiles." LogColor="Orange" />
+		<CustomBehavior File="LoadProfile" ProfileName="Valley of the Four Winds.xml" />
+	</If>
+	<!-- Else Explore -->
+	<If Condition="!(IsAchievementCompleted(6975))">
+		<CustomBehavior File="Message" Text="Explore Krasarang Wilds Incomplete, Exploring Krasarang Wilds." />
+		<!-- Begin Pathing -->
+		 <CustomBehavior File="FlyTo" X="-65.19164" Y="-745.3518" Z="420.2192" />
+		 <CustomBehavior File="FlyTo" X="-754.3029" Y="-695.5761" Z="360.1549" />
+		 <CustomBehavior File="FlyTo" X="-929.0331" Y="-423.6875" Z="372.7011" />
+		 <CustomBehavior File="FlyTo" X="-1162.213" Y="-25.67307" Z="396.8765" />
+		 <CustomBehavior File="FlyTo" X="-1321.116" Y="251.5523" Z="419.5387" />
+		 <CustomBehavior File="FlyTo" X="-1497.447" Y="542.2034" Z="443.5491" />
+		 <CustomBehavior File="FlyTo" X="-1527.641" Y="-273.0349" Z="377.0006" />
+		 <CustomBehavior File="FlyTo" X="-1649.089" Y="151.1631" Z="353.5444" />
+		 <CustomBehavior File="FlyTo" X="-1794.183" Y="650.9697" Z="326.2695" />
+		 <CustomBehavior File="FlyTo" X="-2125.719" Y="678.3777" Z="288.9084" />
+		 <CustomBehavior File="FlyTo" X="-2307.708" Y="674.1268" Z="268.8113" />
+		 <CustomBehavior File="FlyTo" X="-2395.16" Y="610.4785" Z="256.9988" />
+		 <CustomBehavior File="FlyTo" X="-2848.439" Y="607.771" Z="206.9528" />
+		 <CustomBehavior File="FlyTo" X="-2417.371" Y="1398.834" Z="197.5189" />
+		 <CustomBehavior File="FlyTo" X="-1849.074" Y="1089.172" Z="277.6339" />
+		 <CustomBehavior File="FlyTo" X="-1218.867" Y="1045.278" Z="320.7047" />
+		 <CustomBehavior File="FlyTo" X="-1103.219" Y="1073.667" Z="330.1282" />
+		 <CustomBehavior File="FlyTo" X="-1192.761" Y="1689.286" Z="271.7347" />
+		 <CustomBehavior File="FlyTo" X="-1687.414" Y="1560.071" Z="198.3268" />
+		 <CustomBehavior File="FlyTo" X="-2280.332" Y="2111.339" Z="228.3551" />
+		 <CustomBehavior File="FlyTo" X="-2083.942" Y="2315.62" Z="286.4118" />
+		 <CustomBehavior File="FlyTo" X="-1343.805" Y="2418.491" Z="482.2932" />
+		 <CustomBehavior File="FlyTo" X="-1254.434" Y="2283.553" Z="479.5091" />
+		 
+		 <CustomBehavior File="LoadProfile" ProfileName="Valley of the Four Winds.xml" />
+	</If>
+</QuestOrder>
+</HBProfile>

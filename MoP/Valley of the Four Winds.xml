@@ -1,0 +1,62 @@
+<HBProfile>
+<Name>Valley of the Four Winds</Name>
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>1</MinLevel>
+<MaxLevel>91</MaxLevel>
+<Factions>99999</Factions>
+
+<MailGrey>false</MailGrey>
+<MailWhite>false</MailWhite>
+<MailGreen>false</MailGreen>
+<MailBlue>false</MailBlue>
+<MailPurple>false</MailPurple>
+
+<SellGrey>false</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Blackspots>
+</Blackspots>
+
+<QuestOrder>
+	<!-- <CustomBehavior File="UserSettings" LootMobs="False" TrainNewSkills="False" LearnFlightPaths="False" PullDistance="10" /> -->
+	<!-- Check if full achieve completed. -->
+	<If Condition="IsAchievementCompleted(6969)">
+		<CustomBehavior File="Message" Text="Explore Valley of the Four Winds Complete, Switching Profiles." LogColor="Orange" />
+		<CustomBehavior File="LoadProfile" ProfileName="Dread Wastes.xml" />
+	</If>
+	<!-- Else Explore -->
+	<If Condition="!(IsAchievementCompleted(6975))">
+		<CustomBehavior File="Message" Text="Explore Valley Of The Four Winds Incomplete, Exploring Valley Of The Four Winds." />
+	<!-- Begin Pathing -->
+     <CustomBehavior File="FlyTo" X="291.9268" Y="1948.236" Z="546.0587" />
+     <CustomBehavior File="FlyTo" X="-233.3803" Y="2106.353" Z="536.99" />
+     <CustomBehavior File="FlyTo" X="-674.6313" Y="2092.398" Z="505.7321" />
+     <CustomBehavior File="FlyTo" X="-927.2367" Y="1884.072" Z="465.2661" />
+     <CustomBehavior File="FlyTo" X="-653.8528" Y="1664.464" Z="415.1842" />
+     <CustomBehavior File="FlyTo" X="-22.40125" Y="1611.383" Z="459.2251" />
+     <CustomBehavior File="FlyTo" X="96.64423" Y="1462.777" Z="455.7175" />
+     <CustomBehavior File="FlyTo" X="143.6769" Y="1301.166" Z="463.7672" />
+     <CustomBehavior File="FlyTo" X="-719.5933" Y="1315.239" Z="468.078" />
+     <CustomBehavior File="FlyTo" X="-527.3769" Y="650.305" Z="452.2605" />
+     <CustomBehavior File="FlyTo" X="-183.5684" Y="513.7724" Z="464.196" />
+     <CustomBehavior File="FlyTo" X="265.8019" Y="227.9813" Z="489.0619" />
+     <CustomBehavior File="FlyTo" X="405.5576" Y="-312.0804" Z="489.7853" />
+     <CustomBehavior File="FlyTo" X="-50.32022" Y="-61.74512" Z="401.3843" />
+     <CustomBehavior File="FlyTo" X="-390.1412" Y="128.4798" Z="335.5154" />
+	   <CustomBehavior File="FlyTo" X="-65.19164" Y="-745.3518" Z="420.2192" />
+	 
+	 <CustomBehavior File="LoadProfile" ProfileName="Dread Wastes.xml" />
+  </If>
+</QuestOrder>
+</HBProfile>

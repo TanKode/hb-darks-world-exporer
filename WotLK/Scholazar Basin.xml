@@ -1,0 +1,73 @@
+<HBProfile>
+<Name>Scholazar Basin</Name>
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>1</MinLevel>
+<MaxLevel>91</MaxLevel>
+<Factions>99999</Factions>
+
+<MailGrey>false</MailGrey>
+<MailWhite>false</MailWhite>
+<MailGreen>false</MailGreen>
+<MailBlue>false</MailBlue>
+<MailPurple>false</MailPurple>
+
+<SellGrey>false</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Blackspots>
+</Blackspots>
+
+<QuestOrder>
+	<!-- <CustomBehavior File="UserSettings" LootMobs="False" TrainNewSkills="False" LearnFlightPaths="False" PullDistance="10" /> -->
+
+	<!-- Begin Pathing -->
+     <CustomBehavior File="FlyTo" X="5672.02" Y="3411.169" Z="740.4214" />
+     <CustomBehavior File="FlyTo" X="5512.947" Y="3853.943" Z="1.252243" />
+     <CustomBehavior File="FlyTo" X="5430.423" Y="4017.047" Z="5.956326" />
+     <CustomBehavior File="FlyTo" X="5463.438" Y="4176.323" Z="4.11637" />
+     <CustomBehavior File="FlyTo" X="5757.387" Y="4500.595" Z="6.932841" />
+     <CustomBehavior File="FlyTo" X="5842.878" Y="4598.463" Z="-54.23296" />
+     <CustomBehavior File="FlyTo" X="5986.904" Y="4347.138" Z="111.6629" />
+     <CustomBehavior File="FlyTo" X="6257.486" Y="3854.322" Z="279.3248" />
+     <CustomBehavior File="FlyTo" X="6221.912" Y="4715.362" Z="235.0717" />
+     <CustomBehavior File="FlyTo" X="6207.177" Y="4813.38" Z="236.7152" />
+     <CustomBehavior File="FlyTo" X="6535.665" Y="4903.205" Z="132.0684" />
+     <CustomBehavior File="FlyTo" X="6616.147" Y="4954.774" Z="106.4776" />
+     <CustomBehavior File="FlyTo" X="6349.858" Y="5707.975" Z="95.24746" />
+     <CustomBehavior File="FlyTo" X="6249.999" Y="5796.717" Z="107.1373" />
+     <CustomBehavior File="FlyTo" X="6123.153" Y="5690.687" Z="112.5146" />
+     <CustomBehavior File="FlyTo" X="6043.975" Y="5701.974" Z="105.5115" />
+     <CustomBehavior File="FlyTo" X="5845.821" Y="5589.825" Z="107.215" />
+     <CustomBehavior File="FlyTo" X="5701.558" Y="5558.735" Z="103.7411" />
+     <CustomBehavior File="FlyTo" X="5666.1" Y="5476.695" Z="101.0331" />
+     <CustomBehavior File="FlyTo" X="5707.214" Y="5418.111" Z="96.26671" />
+     <CustomBehavior File="FlyTo" X="5735.331" Y="5403.583" Z="94.20532" />
+     <CustomBehavior File="FlyTo" X="5777.364" Y="5398.254" Z="91.10796" />
+     <CustomBehavior File="FlyTo" X="5521.243" Y="5016.05" Z="-21.23058" />
+     <CustomBehavior File="FlyTo" X="5476.704" Y="4909.364" Z="-111.3899" />
+     <CustomBehavior File="FlyTo" X="5458.384" Y="4816.539" Z="-123.1024" />
+     <CustomBehavior File="FlyTo" X="5368.554" Y="4902.39" Z="-41.43178" />
+     <CustomBehavior File="FlyTo" X="5192.081" Y="5086.449" Z="9.337275" />
+     <CustomBehavior File="FlyTo" X="5139.923" Y="5112.002" Z="62.22885" />
+     <CustomBehavior File="FlyTo" X="5091.413" Y="5135.769" Z="99.48411" />
+     <CustomBehavior File="FlyTo" X="5033" Y="5164.386" Z="115.067" />
+     <CustomBehavior File="FlyTo" X="5033.299" Y="5268.249" Z="117.4898" />
+     <CustomBehavior File="FlyTo" X="5026.261" Y="5349.542" Z="118.6291" />
+     <CustomBehavior File="FlyTo" X="5035.574" Y="5405.337" Z="117.3208" />
+     <CustomBehavior File="FlyTo" X="4950.79" Y="5612.334" Z="113.4161" />
+     <CustomBehavior File="FlyTo" X="4923.737" Y="5678.383" Z="137.2842" />
+     <CustomBehavior File="FlyTo" X="4881.561" Y="5781.211" Z="135.3441" />
+     <CustomBehavior File="FlyTo" X="4922.775" Y="5885.457" Z="132.3831" />
+</QuestOrder>
+</HBProfile>

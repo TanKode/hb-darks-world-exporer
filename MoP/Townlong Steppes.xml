@@ -1,0 +1,67 @@
+<HBProfile>
+<Name>Townlong Steppes</Name>
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>1</MinLevel>
+<MaxLevel>91</MaxLevel>
+<Factions>99999</Factions>
+
+<MailGrey>false</MailGrey>
+<MailWhite>false</MailWhite>
+<MailGreen>false</MailGreen>
+<MailBlue>false</MailBlue>
+<MailPurple>false</MailPurple>
+
+<SellGrey>false</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Blackspots>
+</Blackspots>
+
+<QuestOrder>
+	<!-- <CustomBehavior File="UserSettings" LootMobs="False" TrainNewSkills="False" LearnFlightPaths="False" PullDistance="10" /> -->
+	<!-- Check if full achieve completed. -->
+	<If Condition="IsAchievementCompleted(6977)">
+		<CustomBehavior File="Message" Text="Explore Townlong Steppes Complete, Switching Profiles." LogColor="Orange" />
+		<CustomBehavior File="LoadProfile" ProfileName="Kun-Lai Summit.xml" />
+	</If>
+	<!-- Else Explore -->
+	<If Condition="!(IsAchievementCompleted(6977))">
+		<CustomBehavior File="Message" Text="Explore Townlong Steppes Incomplete, Exploring Townlong Steppes." />
+		<!-- Begin Pathing -->
+		 <CustomBehavior File="FlyTo" X="1242.96" Y="4437.698" Z="645.4275" />
+		 <CustomBehavior File="FlyTo" X="1562.533" Y="3878.471" Z="667.2129" />
+		 <CustomBehavior File="FlyTo" X="1517.293" Y="3296.775" Z="728.0057" />
+		 <CustomBehavior File="FlyTo" X="1795.091" Y="3172.32" Z="744.678" />
+		 <CustomBehavior File="FlyTo" X="1808.609" Y="2964.848" Z="749.2183" />
+		 <CustomBehavior File="FlyTo" X="1837.335" Y="2533.712" Z="752.6124" />
+		 <CustomBehavior File="FlyTo" X="2314.127" Y="3071.19" Z="705.3802" />
+		 <CustomBehavior File="FlyTo" X="2392.888" Y="3357.079" Z="689.6021" />
+		 <CustomBehavior File="FlyTo" X="2264.876" Y="3736.105" Z="725.22" />
+		 <CustomBehavior File="FlyTo" X="2127.003" Y="4144.331" Z="699.2441" />
+		 <CustomBehavior File="FlyTo" X="2006.835" Y="4190.167" Z="697.9207" />
+		 <CustomBehavior File="FlyTo" X="1876.504" Y="4504.445" Z="690.8483" />
+		 <CustomBehavior File="FlyTo" X="1992.229" Y="5108.59" Z="742.5889" />
+		 <CustomBehavior File="FlyTo" X="2511.952" Y="5349.365" Z="801.5602" />
+		 <CustomBehavior File="FlyTo" X="2929.083" Y="5644.165" Z="886.5015" />
+		 <CustomBehavior File="FlyTo" X="3383.589" Y="5732.796" Z="934.5886" />
+		 <CustomBehavior File="FlyTo" X="3582.882" Y="5765.92" Z="941.4672" />
+		 <CustomBehavior File="FlyTo" X="3057.858" Y="5437.852" Z="840.683" />
+		 <CustomBehavior File="FlyTo" X="2677.658" Y="5038.535" Z="785.7205" />
+		 <CustomBehavior File="FlyTo" X="2475.418" Y="4210.879" Z="714.1195" />
+		 <CustomBehavior File="FlyTo" X="2465.503" Y="3887.937" Z="673.6113" />
+		 
+		 <CustomBehavior File="LoadProfile" ProfileName="Kun-Lai Summit.xml" />
+  </If>
+</QuestOrder>
+</HBProfile>

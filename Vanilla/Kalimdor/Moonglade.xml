@@ -1,0 +1,69 @@
+<HBProfile>
+<Name>Moonglade</Name>
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>1</MinLevel>
+<MaxLevel>91</MaxLevel>
+<Factions>99999</Factions>
+
+<MailGrey>false</MailGrey>
+<MailWhite>false</MailWhite>
+<MailGreen>false</MailGreen>
+<MailBlue>false</MailBlue>
+<MailPurple>false</MailPurple>
+
+<SellGrey>false</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Blackspots>
+</Blackspots>
+
+<QuestOrder>
+	<!-- <CustomBehavior File="UserSettings" LootMobs="False" TrainNewSkills="False" LearnFlightPaths="False" PullDistance="10" /> -->
+	<!-- Check if full achieve completed. -->
+	<If Condition="IsAchievementCompleted(855)">
+		<CustomBehavior File="Message" Text="Explore Moonglade Complete, Switching Profiles." />
+		<CustomBehavior File="LoadProfile" ProfileName="...\...\Vanilla\Kalimdor\Winterspring.xml" />
+	</If>
+	<!-- Else Explore -->
+	<If Condition="!(IsAchievementCompleted(855))">
+		<CustomBehavior File="Message" Text="Explore Moonglade Incomplete, Exploring Moonglade." />
+		<!-- Begin Pathing -->
+		 <CustomBehavior File="FlyTo" X="7483.79" Y="-2129.548" Z="530.3388" />
+		 <CustomBehavior File="FlyTo" X="7525.393" Y="-2125.696" Z="536.3635" />
+		 <CustomBehavior File="FlyTo" X="7588.232" Y="-2130.461" Z="538.1149" />
+		 <CustomBehavior File="FlyTo" X="7647.31" Y="-2151.545" Z="532.6354" />
+		 <CustomBehavior File="FlyTo" X="7703.273" Y="-2181.558" Z="535.597" />
+		 <CustomBehavior File="FlyTo" X="7761.552" Y="-2203.971" Z="538.5668" />
+		 <CustomBehavior File="FlyTo" X="7824.074" Y="-2202.954" Z="534.2615" />
+		 <CustomBehavior File="FlyTo" X="7861.858" Y="-2222.746" Z="503.8343" />
+		 <CustomBehavior File="FlyTo" X="7836.359" Y="-2265.7" Z="536.7584" />
+		 <CustomBehavior File="FlyTo" X="7835.7" Y="-2326.079" Z="554.4148" />
+		 <CustomBehavior File="FlyTo" X="7845.869" Y="-2387.914" Z="556.5913" />
+		 <CustomBehavior File="FlyTo" X="7864.96" Y="-2433.328" Z="518.7244" />
+		 <CustomBehavior File="FlyTo" X="7874.638" Y="-2493.297" Z="522.5003" />
+		 <CustomBehavior File="FlyTo" X="7853.203" Y="-2541.52" Z="513.9781" />
+		 <CustomBehavior File="FlyTo" X="7794.618" Y="-2564.022" Z="519.8133" />
+		 <CustomBehavior File="FlyTo" X="7741.871" Y="-2597.877" Z="526.7514" />
+		 <CustomBehavior File="FlyTo" X="7690.536" Y="-2633.183" Z="533.6345" />
+		 <CustomBehavior File="FlyTo" X="7630.991" Y="-2653.097" Z="538.7684" />
+		 <CustomBehavior File="FlyTo" X="7611.804" Y="-2710.379" Z="537.5181" />
+		 <CustomBehavior File="FlyTo" X="7617.909" Y="-2770.712" Z="523.8181" />
+		 <CustomBehavior File="FlyTo" X="7626.498" Y="-2830.3" Z="508.7306" />
+		 <CustomBehavior File="FlyTo" X="7622.729" Y="-2891.343" Z="491.1164" />
+		 <CustomBehavior File="FlyTo" X="7648.034" Y="-2941.048" Z="473.6334" />
+		 
+		 <CustomBehavior File="LoadProfile" ProfileName="...\...\Vanilla\Kalimdor\Winterspring.xml" 
+	</If>
+</QuestOrder>
+</HBProfile>

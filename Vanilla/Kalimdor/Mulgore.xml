@@ -1,0 +1,204 @@
+<HBProfile>
+<Name>Mulgore</Name>
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>1</MinLevel>
+<MaxLevel>91</MaxLevel>
+<Factions>99999</Factions>
+
+<MailGrey>false</MailGrey>
+<MailWhite>false</MailWhite>
+<MailGreen>false</MailGreen>
+<MailBlue>false</MailBlue>
+<MailPurple>false</MailPurple>
+
+<SellGrey>false</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Blackspots>
+</Blackspots>
+
+<QuestOrder>
+	<!-- <CustomBehavior File="UserSettings" LootMobs="False" TrainNewSkills="False" LearnFlightPaths="False" PullDistance="10" /> -->
+	<!-- Check if full achieve completed. -->
+	<If Condition="IsAchievementCompleted(736)">
+		<CustomBehavior File="Message" Text="Explore Mulgore Complete, Switching Profiles." />
+		<CustomBehavior File="LoadProfile" ProfileName="...\...\Vanilla\Kalimdor\Desolace.xml" />
+	</If>
+	<!-- Else Explore -->
+	<If Condition="!(IsAchievementCompleted(736))">
+		<CustomBehavior File="Message" Text="Explore Mulgore Incomplete, Exploring Mulgore." />
+		<!-- Begin Pathing -->
+		 <CustomBehavior File="FlyTo" X="-1264.182" Y="79.06154" Z="128.2639" />
+		 <CustomBehavior File="FlyTo" X="-1264.182" Y="79.06154" Z="170.3468" />
+		 <CustomBehavior File="FlyTo" X="-1224.16" Y="68.28825" Z="171.1582" />
+		 <CustomBehavior File="FlyTo" X="-1177.268" Y="35.02445" Z="180.0214" />
+		 <CustomBehavior File="FlyTo" X="-1139.137" Y="-15.21777" Z="181.2809" />
+		 <CustomBehavior File="FlyTo" X="-1097.426" Y="-62.47224" Z="182.9624" />
+		 <CustomBehavior File="FlyTo" X="-1047.447" Y="-99.97444" Z="185.9118" />
+		 <CustomBehavior File="FlyTo" X="-985.3687" Y="-104.2498" Z="190.5415" />
+		 <CustomBehavior File="FlyTo" X="-922.5411" Y="-107.0451" Z="196.1482" />
+		 <CustomBehavior File="FlyTo" X="-859.752" Y="-109.936" Z="201.7923" />
+		 <CustomBehavior File="FlyTo" X="-796.9316" Y="-112.8284" Z="207.4391" />
+		 <CustomBehavior File="FlyTo" X="-734.1111" Y="-115.7208" Z="213.0859" />
+		 <CustomBehavior File="FlyTo" X="-674.3184" Y="-131.3308" Z="206.4734" />
+		 <CustomBehavior File="FlyTo" X="-642.321" Y="-172.1669" Z="172.9828" />
+		 <CustomBehavior File="FlyTo" X="-646.9308" Y="-221.7083" Z="135.0941" />
+		 <CustomBehavior File="FlyTo" X="-677.0323" Y="-267.7192" Z="104.6392" />
+		 <CustomBehavior File="FlyTo" X="-711.1838" Y="-311.5126" Z="74.59798" />
+		 <CustomBehavior File="FlyTo" X="-745.3353" Y="-355.306" Z="44.55674" />
+		 <CustomBehavior File="FlyTo" X="-779.9648" Y="-399.6129" Z="16.06207" />
+		 <CustomBehavior File="FlyTo" X="-820.74" Y="-447.4014" Z="9.290585" />
+		 <CustomBehavior File="FlyTo" X="-836.688" Y="-508.0346" Z="7.139551" />
+		 <CustomBehavior File="FlyTo" X="-835.8284" Y="-551.1527" Z="8.039059" />
+		 <CustomBehavior File="FlyTo" X="-834.0809" Y="-614.2319" Z="5.888025" />
+		 <CustomBehavior File="FlyTo" X="-846.9551" Y="-672.3261" Z="24.27593" />
+		 <CustomBehavior File="FlyTo" X="-871.4893" Y="-725.4764" Z="46.64088" />
+		 <CustomBehavior File="FlyTo" X="-886.7386" Y="-782.4847" Z="69.00584" />
+		 <CustomBehavior File="FlyTo" X="-892.8085" Y="-840.6842" Z="91.38199" />
+		 <CustomBehavior File="FlyTo" X="-891.9646" Y="-899.6907" Z="113.7469" />
+		 <CustomBehavior File="FlyTo" X="-898.7027" Y="-957.8074" Z="136.1231" />
+		 <CustomBehavior File="FlyTo" X="-901.0836" Y="-1016.363" Z="155.9445" />
+		 <CustomBehavior File="FlyTo" X="-918.425" Y="-1072.541" Z="142.9095" />
+		 <CustomBehavior File="FlyTo" X="-979.077" Y="-1090.014" Z="142.8894" />
+		 <CustomBehavior File="FlyTo" X="-1040.134" Y="-1105.974" Z="142.8043" />
+		 <CustomBehavior File="FlyTo" X="-1101.221" Y="-1121.942" Z="142.7191" />
+		 <CustomBehavior File="FlyTo" X="-1162.496" Y="-1136.855" Z="142.6339" />
+		 <CustomBehavior File="FlyTo" X="-1223.996" Y="-1138.541" Z="146.9036" />
+		 <CustomBehavior File="FlyTo" X="-1273.88" Y="-1136.797" Z="179.9153" />
+		 <CustomBehavior File="FlyTo" X="-1331.49" Y="-1137.387" Z="197.4147" />
+		 <CustomBehavior File="FlyTo" X="-1394.794" Y="-1138.035" Z="204.2616" />
+		 <CustomBehavior File="FlyTo" X="-1457.201" Y="-1144.489" Z="210.128" />
+		 <CustomBehavior File="FlyTo" X="-1519.338" Y="-1152.897" Z="217.0614" />
+		 <CustomBehavior File="FlyTo" X="-1578.026" Y="-1170.329" Z="231.06" />
+		 <CustomBehavior File="FlyTo" X="-1635.152" Y="-1188.734" Z="242.2527" />
+		 <CustomBehavior File="FlyTo" X="-1690.311" Y="-1158.352" Z="244.5286" />
+		 <CustomBehavior File="FlyTo" X="-1743.851" Y="-1131.96" Z="246.6598" />
+		 <CustomBehavior File="FlyTo" X="-1707.635" Y="-1122.154" Z="226.5025" />
+		 <CustomBehavior File="FlyTo" X="-1738.942" Y="-1152.941" Z="213.7538" />
+		 <CustomBehavior File="FlyTo" X="-1766.867" Y="-1111.003" Z="217.8826" />
+		 <CustomBehavior File="FlyTo" X="-1784.177" Y="-1079.248" Z="197.7056" />
+		 <CustomBehavior File="FlyTo" X="-1795.198" Y="-1048.453" Z="170.849" />
+		 <CustomBehavior File="FlyTo" X="-1763.242" Y="-1031.129" Z="122.703" />
+		 <CustomBehavior File="FlyTo" X="-1732.312" Y="-1056.3" Z="118.3275" />
+		 <CustomBehavior File="FlyTo" X="-1761.832" Y="-1027.319" Z="119.1492" />
+		 <CustomBehavior File="FlyTo" X="-1807.058" Y="-994.085" Z="143.9892" />
+		 <CustomBehavior File="FlyTo" X="-1866.714" Y="-984.2272" Z="160.7086" />
+		 <CustomBehavior File="FlyTo" X="-1926.687" Y="-975.5825" Z="177.3863" />
+		 <CustomBehavior File="FlyTo" X="-1932.893" Y="-923.3952" Z="194.0891" />
+		 <CustomBehavior File="FlyTo" X="-1929.557" Y="-863.3242" Z="210.7834" />
+		 <CustomBehavior File="FlyTo" X="-1932.106" Y="-802.4868" Z="227.4862" />
+		 <CustomBehavior File="FlyTo" X="-1972.171" Y="-776.2575" Z="244.1806" />
+		 <CustomBehavior File="FlyTo" X="-2012.558" Y="-820.1126" Z="260.8833" />
+		 <CustomBehavior File="FlyTo" X="-2046.198" Y="-870.8306" Z="277.5777" />
+		 <CustomBehavior File="FlyTo" X="-2079.855" Y="-921.574" Z="294.2805" />
+		 <CustomBehavior File="FlyTo" X="-2113.495" Y="-972.2919" Z="310.9748" />
+		 <CustomBehavior File="FlyTo" X="-2147.202" Y="-1023.111" Z="327.7026" />
+		 <CustomBehavior File="FlyTo" X="-2181.078" Y="-1074.185" Z="344.5139" />
+		 <CustomBehavior File="FlyTo" X="-2214.718" Y="-1124.903" Z="361.2083" />
+		 <CustomBehavior File="FlyTo" X="-2248.375" Y="-1175.646" Z="377.9111" />
+		 <CustomBehavior File="FlyTo" X="-2287.699" Y="-1216.996" Z="394.6138" />
+		 <CustomBehavior File="FlyTo" X="-2315.264" Y="-1164.423" Z="411.3082" />
+		 <CustomBehavior File="FlyTo" X="-2369.091" Y="-1143.246" Z="428.011" />
+		 <CustomBehavior File="FlyTo" X="-2425.658" Y="-1135.737" Z="444.7137" />
+		 <CustomBehavior File="FlyTo" X="-2393.176" Y="-1086.838" Z="461.4081" />
+		 <CustomBehavior File="FlyTo" X="-2354.191" Y="-1084.423" Z="431.0203" />
+		 <CustomBehavior File="FlyTo" X="-2354.877" Y="-1094.227" Z="369.3057" />
+		 <CustomBehavior File="FlyTo" X="-2357.072" Y="-1094.171" Z="306.2354" />
+		 <CustomBehavior File="FlyTo" X="-2358.004" Y="-1094.551" Z="243.1335" />
+		 <CustomBehavior File="FlyTo" X="-2358.101" Y="-1091.339" Z="180.1461" />
+		 <CustomBehavior File="FlyTo" X="-2363.318" Y="-1089.656" Z="117.3203" />
+		 <CustomBehavior File="FlyTo" X="-2378.076" Y="-1062.512" Z="64.48478" />
+		 <CustomBehavior File="FlyTo" X="-2381.596" Y="-1088.267" Z="31.14814" />
+		 <CustomBehavior File="FlyTo" X="-2327.204" Y="-1097.111" Z="15.38688" />
+		 <CustomBehavior File="FlyTo" X="-2357.253" Y="-1124.26" Z="14.87392" />
+		 <CustomBehavior File="FlyTo" X="-2412.271" Y="-1096.764" Z="28.07036" />
+		 <CustomBehavior File="FlyTo" X="-2467.642" Y="-1070.341" Z="42.98869" />
+		 <CustomBehavior File="FlyTo" X="-2522.985" Y="-1043.931" Z="57.89955" />
+		 <CustomBehavior File="FlyTo" X="-2576.26" Y="-1013.847" Z="72.94468" />
+		 <CustomBehavior File="FlyTo" X="-2605.741" Y="-962.4636" Z="87.85555" />
+		 <CustomBehavior File="FlyTo" X="-2586.11" Y="-904.369" Z="102.7664" />
+		 <CustomBehavior File="FlyTo" X="-2574.694" Y="-844.4948" Z="117.6847" />
+		 <CustomBehavior File="FlyTo" X="-2570.293" Y="-783.4344" Z="132.6031" />
+		 <CustomBehavior File="FlyTo" X="-2566.347" Y="-723.0058" Z="146.1917" />
+		 <CustomBehavior File="FlyTo" X="-2620.05" Y="-722.1384" Z="150.585" />
+		 <CustomBehavior File="FlyTo" X="-2678.001" Y="-746.7161" Z="155.0789" />
+		 <CustomBehavior File="FlyTo" X="-2735.982" Y="-771.3062" Z="159.5749" />
+		 <CustomBehavior File="FlyTo" X="-2793.934" Y="-795.8839" Z="164.0688" />
+		 <CustomBehavior File="FlyTo" X="-2854.016" Y="-803.8735" Z="168.5649" />
+		 <CustomBehavior File="FlyTo" X="-2914.089" Y="-785.0673" Z="173.0587" />
+		 <CustomBehavior File="FlyTo" X="-2974.192" Y="-766.2517" Z="177.5548" />
+		 <CustomBehavior File="FlyTo" X="-3034.296" Y="-747.4362" Z="182.0509" />
+		 <CustomBehavior File="FlyTo" X="-3094.519" Y="-729.2632" Z="186.5447" />
+		 <CustomBehavior File="FlyTo" X="-3156.842" Y="-719.979" Z="191.043" />
+		 <CustomBehavior File="FlyTo" X="-3213.144" Y="-702.7648" Z="175.8397" />
+		 <CustomBehavior File="FlyTo" X="-3260.408" Y="-708.7476" Z="136.3673" />
+		 <CustomBehavior File="FlyTo" X="-3293.036" Y="-712.3939" Z="86.98169" />
+		 <CustomBehavior File="FlyTo" X="-3339.215" Y="-728.9915" Z="69.17706" />
+		 <CustomBehavior File="FlyTo" X="-3303.571" Y="-698.3715" Z="64.03471" />
+		 <CustomBehavior File="FlyTo" X="-3250.864" Y="-665.3562" Z="65.51293" />
+		 <CustomBehavior File="FlyTo" X="-3188.401" Y="-669.0803" Z="73.83749" />
+		 <CustomBehavior File="FlyTo" X="-3125.99" Y="-673.2479" Z="82.21128" />
+		 <CustomBehavior File="FlyTo" X="-3063.547" Y="-677.4175" Z="90.58926" />
+		 <CustomBehavior File="FlyTo" X="-3001.104" Y="-681.5872" Z="98.96725" />
+		 <CustomBehavior File="FlyTo" X="-2939.92" Y="-671.6433" Z="107.3452" />
+		 <CustomBehavior File="FlyTo" X="-2887.596" Y="-637.0471" Z="115.7861" />
+		 <CustomBehavior File="FlyTo" X="-2837.583" Y="-599.4284" Z="124.164" />
+		 <CustomBehavior File="FlyTo" X="-2787.595" Y="-561.8286" Z="132.5378" />
+		 <CustomBehavior File="FlyTo" X="-2737.557" Y="-524.191" Z="140.92" />
+		 <CustomBehavior File="FlyTo" X="-2687.594" Y="-486.6099" Z="149.2896" />
+		 <CustomBehavior File="FlyTo" X="-2637.581" Y="-448.9912" Z="157.6676" />
+		 <CustomBehavior File="FlyTo" X="-2585.524" Y="-415.375" Z="166.0414" />
+		 <CustomBehavior File="FlyTo" X="-2526.043" Y="-430.5012" Z="174.4194" />
+		 <CustomBehavior File="FlyTo" X="-2465.957" Y="-415.4244" Z="182.8099" />
+		 <CustomBehavior File="FlyTo" X="-2414.063" Y="-386.8748" Z="191.1711" />
+		 <CustomBehavior File="FlyTo" X="-2433.95" Y="-330.6816" Z="199.5449" />
+		 <CustomBehavior File="FlyTo" X="-2432.7" Y="-268.8329" Z="207.9229" />
+		 <CustomBehavior File="FlyTo" X="-2425.5" Y="-206.6983" Z="216.2967" />
+		 <CustomBehavior File="FlyTo" X="-2418.295" Y="-144.5326" Z="224.6747" />
+		 <CustomBehavior File="FlyTo" X="-2411.095" Y="-82.39807" Z="233.0485" />
+		 <CustomBehavior File="FlyTo" X="-2403.891" Y="-20.23239" Z="241.4265" />
+		 <CustomBehavior File="FlyTo" X="-2396.687" Y="41.93326" Z="249.8044" />
+		 <CustomBehavior File="FlyTo" X="-2389.486" Y="104.0679" Z="258.1783" />
+		 <CustomBehavior File="FlyTo" X="-2382.285" Y="166.2024" Z="266.552" />
+		 <CustomBehavior File="FlyTo" X="-2367.609" Y="219.9738" Z="247.1412" />
+		 <CustomBehavior File="FlyTo" X="-2351.872" Y="272.2638" Z="219.1991" />
+		 <CustomBehavior File="FlyTo" X="-2296.223" Y="264.3281" Z="215.6174" />
+		 <CustomBehavior File="FlyTo" X="-2268.151" Y="317.056" Z="233.3276" />
+		 <CustomBehavior File="FlyTo" X="-2227.413" Y="358.0465" Z="256.1149" />
+		 <CustomBehavior File="FlyTo" X="-2172.064" Y="376.9559" Z="278.9155" />
+		 <CustomBehavior File="FlyTo" X="-2116.258" Y="403.7768" Z="278.3919" />
+		 <CustomBehavior File="FlyTo" X="-2061.392" Y="430.7559" Z="262.6274" />
+		 <CustomBehavior File="FlyTo" X="-2014.53" Y="442.3211" Z="224.4977" />
+		 <CustomBehavior File="FlyTo" X="-1964.646" Y="450.199" Z="192.0702" />
+		 <CustomBehavior File="FlyTo" X="-1940.134" Y="432.024" Z="152.9074" />
+		 <CustomBehavior File="FlyTo" X="-1929.187" Y="374.8379" Z="148.6054" />
+		 <CustomBehavior File="FlyTo" X="-1910.799" Y="317.3558" Z="137.5564" />
+		 <CustomBehavior File="FlyTo" X="-1884.016" Y="263.2159" Z="126.5018" />
+		 <CustomBehavior File="FlyTo" X="-1881.938" Y="201.117" Z="115.4528" />
+		 <CustomBehavior File="FlyTo" X="-1879.859" Y="138.9871" Z="104.3982" />
+		 <CustomBehavior File="FlyTo" X="-1853.017" Y="84.47031" Z="93.34915" />
+		 <CustomBehavior File="FlyTo" X="-1814.893" Y="35.36843" Z="82.29459" />
+		 <CustomBehavior File="FlyTo" X="-1790.132" Y="-20.78917" Z="71.24554" />
+		 <CustomBehavior File="FlyTo" X="-1771.229" Y="-79.97758" Z="60.19651" />
+		 <CustomBehavior File="FlyTo" X="-1752.316" Y="-139.1956" Z="49.14194" />
+		 <CustomBehavior File="FlyTo" X="-1748.292" Y="-200.4456" Z="38.08738" />
+		 <CustomBehavior File="FlyTo" X="-1751.044" Y="-262.5183" Z="27.03834" />
+		 <CustomBehavior File="FlyTo" X="-1790.281" Y="-285.3625" Z="15.98377" />
+		 <CustomBehavior File="FlyTo" X="-1834.403" Y="-259.2616" Z="4.934729" />
+		 <CustomBehavior File="FlyTo" X="-1807.856" Y="-305.9231" Z="12.93" />
+		 
+		<CustomBehavior File="LoadProfile" ProfileName="...\...\Vanilla\Kalimdor\Desolace.xml" />
+	</If>
+</QuestOrder>
+</HBProfile>

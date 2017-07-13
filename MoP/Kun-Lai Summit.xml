@@ -1,0 +1,63 @@
+<HBProfile>
+<Name>Kun-Lai Summit</Name>
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>1</MinLevel>
+<MaxLevel>91</MaxLevel>
+<Factions>99999</Factions>
+
+<MailGrey>false</MailGrey>
+<MailWhite>false</MailWhite>
+<MailGreen>false</MailGreen>
+<MailBlue>false</MailBlue>
+<MailPurple>false</MailPurple>
+
+<SellGrey>false</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Blackspots>
+</Blackspots>
+
+<QuestOrder>
+	<!-- <CustomBehavior File="UserSettings" LootMobs="False" TrainNewSkills="False" LearnFlightPaths="False" PullDistance="10" /> -->
+	<!-- Check if full achieve completed. -->
+	<If Condition="IsAchievementCompleted(6976)">
+		<CustomBehavior File="Message" Text="Explore Kun-Lai Summit Complete, Switching Profiles." LogColor="Orange" />
+		<CustomBehavior File="LoadProfile" ProfileName="Vale of Eternal Blossoms.xml" />
+	</If>
+	<!-- Else Explore -->
+	<If Condition="!(IsAchievementCompleted(6976))">
+		<CustomBehavior File="Message" Text="Explore Kun-Lai Summit Incomplete, Exploring Kun-Lai Summit." />
+		<!-- Begin Pathing -->
+		 <CustomBehavior File="FlyTo" X="3651.744" Y="2916.957" Z="882.7066" />
+		 <CustomBehavior File="FlyTo" X="3299.263" Y="2574.219" Z="874.3728" />
+		 <CustomBehavior File="FlyTo" X="2983.758" Y="2469.872" Z="827.5563" />
+		 <CustomBehavior File="FlyTo" X="2726.938" Y="2185.05" Z="702.0665" />
+		 <CustomBehavior File="FlyTo" X="2598.446" Y="2106.664" Z="683.4612" />
+		 <CustomBehavior File="FlyTo" X="2066.823" Y="1944.117" Z="635.2743" />
+		 <CustomBehavior File="FlyTo" X="2276.59" Y="1409.212" Z="614.1086" />
+		 <CustomBehavior File="FlyTo" X="2571.941" Y="1442.794" Z="812.2645" />
+		 <CustomBehavior File="FlyTo" X="2864.008" Y="1460.12" Z="812.554" />
+		 <CustomBehavior File="FlyTo" X="3218.278" Y="1479.429" Z="925.5455" />
+		 <CustomBehavior File="FlyTo" X="3257.064" Y="1481.402" Z="1009.029" />
+		 <CustomBehavior File="FlyTo" X="3601.919" Y="1501.969" Z="1036.091" />
+		 <CustomBehavior File="FlyTo" X="3922.256" Y="1615.714" Z="1029.603" />
+		 <CustomBehavior File="FlyTo" X="3917.729" Y="1709.837" Z="1019.96" />
+		 <CustomBehavior File="FlyTo" X="4419.646" Y="952.4017" Z="936.2734" />
+		 <CustomBehavior File="FlyTo" X="3986.916" Y="514.0889" Z="916.2323" />
+		 <CustomBehavior File="FlyTo" X="3089.068" Y="353.1622" Z="845.9316" />
+		 
+		 <CustomBehavior File="LoadProfile" ProfileName="Vale of Eternal Blossoms.xml" />
+  </If>
+</QuestOrder>
+</HBProfile>

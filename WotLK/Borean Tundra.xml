@@ -1,0 +1,51 @@
+<HBProfile>
+<Name>Borean Tundra</Name>
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>1</MinLevel>
+<MaxLevel>91</MaxLevel>
+<Factions>99999</Factions>
+
+<MailGrey>false</MailGrey>
+<MailWhite>false</MailWhite>
+<MailGreen>false</MailGreen>
+<MailBlue>false</MailBlue>
+<MailPurple>false</MailPurple>
+
+<SellGrey>false</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Blackspots>
+</Blackspots>
+
+<QuestOrder>
+	<!-- <CustomBehavior File="UserSettings" LootMobs="False" TrainNewSkills="False" LearnFlightPaths="False" PullDistance="10" /> -->
+
+	<!-- Begin Pathing -->
+     <CustomBehavior File="FlyTo" X="2717.604" Y="6306.407" Z="144.9272" />
+     <CustomBehavior File="FlyTo" X="2827.118" Y="6544.172" Z="121.0205" />
+     <CustomBehavior File="FlyTo" X="2844.218" Y="6641.193" Z="105.7754" />
+     <CustomBehavior File="FlyTo" X="2893.284" Y="6858.555" Z="77.90875" />
+     <CustomBehavior File="FlyTo" X="3376.455" Y="7081.045" Z="374.1751" />
+     <CustomBehavior File="FlyTo" X="3544.081" Y="5923.615" Z="285.5067" />
+     <CustomBehavior File="FlyTo" X="3953.813" Y="5684.418" Z="228.5919" />
+     <CustomBehavior File="FlyTo" X="4485.391" Y="5683.434" Z="198.7083" />
+     <CustomBehavior File="FlyTo" X="3788.827" Y="4743.89" Z="45.3007" />
+     <CustomBehavior File="FlyTo" X="4264.984" Y="4168.13" Z="293.3451" />
+     <CustomBehavior File="FlyTo" X="3904.162" Y="3528.644" Z="185.1296" />
+     <CustomBehavior File="FlyTo" X="3102.201" Y="3818.826" Z="162.3787" />
+     <CustomBehavior File="FlyTo" X="2920.498" Y="4762.857" Z="81.83514" />
+     <CustomBehavior File="FlyTo" X="2226.564" Y="5244.272" Z="91.7991" />
+     <CustomBehavior File="FlyTo" X="1775.29" Y="5842.025" Z="49.75496" />
+</QuestOrder>
+</HBProfile>

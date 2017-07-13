@@ -1,0 +1,52 @@
+<HBProfile>
+<Name>Dragonblight</Name>
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>1</MinLevel>
+<MaxLevel>91</MaxLevel>
+<Factions>99999</Factions>
+
+<MailGrey>false</MailGrey>
+<MailWhite>false</MailWhite>
+<MailGreen>false</MailGreen>
+<MailBlue>false</MailBlue>
+<MailPurple>false</MailPurple>
+
+<SellGrey>false</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Blackspots>
+</Blackspots>
+
+<QuestOrder>
+	<!-- <CustomBehavior File="UserSettings" LootMobs="False" TrainNewSkills="False" LearnFlightPaths="False" PullDistance="10" /> -->
+
+	<!-- Begin Pathing -->
+     <CustomBehavior File="FlyTo" X="3609.392" Y="279.1703" Z="62.01747" />
+     <CustomBehavior File="FlyTo" X="3699.872" Y="292.6041" Z="63.97398" />
+     <CustomBehavior File="FlyTo" X="4369.288" Y="549.5436" Z="190.4946" />
+     <CustomBehavior File="FlyTo" X="4899.912" Y="116.7103" Z="198.3828" />
+     <CustomBehavior File="FlyTo" X="4613.169" Y="-453.7554" Z="270.4406" />
+     <CustomBehavior File="FlyTo" X="4479.809" Y="-739.2631" Z="249.0472" />
+     <CustomBehavior File="FlyTo" X="4615.569" Y="-1065.247" Z="295.2854" />
+     <CustomBehavior File="FlyTo" X="3776.144" Y="-1229.313" Z="217.4841" />
+     <CustomBehavior File="FlyTo" X="3246.677" Y="-630.8237" Z="252.9255" />
+     <CustomBehavior File="FlyTo" X="2957.553" Y="-982.1703" Z="184.621" />
+     <CustomBehavior File="FlyTo" X="2785.347" Y="-500.713" Z="223.6919" />
+     <CustomBehavior File="FlyTo" X="2820.484" Y="61.80916" Z="191.5919" />
+     <CustomBehavior File="FlyTo" X="3073.919" Y="1389.763" Z="205.3296" />
+     <CustomBehavior File="FlyTo" X="3817.497" Y="1571.72" Z="202.7794" />
+     <CustomBehavior File="FlyTo" X="4578.73" Y="1575.098" Z="409.9411" />
+     <CustomBehavior File="FlyTo" X="4793.714" Y="1596.861" Z="410.4966" />
+</QuestOrder>
+</HBProfile>

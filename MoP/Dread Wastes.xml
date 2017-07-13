@@ -1,0 +1,66 @@
+<HBProfile>
+<Name>Dread Wastes</Name>
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>1</MinLevel>
+<MaxLevel>91</MaxLevel>
+<Factions>99999</Factions>
+
+<MailGrey>false</MailGrey>
+<MailWhite>false</MailWhite>
+<MailGreen>false</MailGreen>
+<MailBlue>false</MailBlue>
+<MailPurple>false</MailPurple>
+
+<SellGrey>false</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Blackspots>
+</Blackspots>
+
+<QuestOrder>
+	<!-- <CustomBehavior File="UserSettings" LootMobs="False" TrainNewSkills="False" LearnFlightPaths="False" PullDistance="10" /> -->
+	<!-- Check if full achieve completed. -->
+	<If Condition="IsAchievementCompleted(6978)">
+		<CustomBehavior File="Message" Text="Explore Dread Wastes Complete, Switching Profiles." LogColor="Orange" />
+		<CustomBehavior File="LoadProfile" ProfileName="Townlong Steppes.xml" />
+	</If>
+	<!-- Else Explore -->
+	<If Condition="!(IsAchievementCompleted(6978))">
+		<CustomBehavior File="Message" Text="Explore Dread Wastes Incomplete, Exploring Dread Wastes." />
+		<!-- Begin Pathing -->
+		 <CustomBehavior File="FlyTo" X="-932.0748" Y="2629.115" Z="481.7595" />
+		 <CustomBehavior File="FlyTo" X="-735.5368" Y="2661.818" Z="487.933" />
+		 <CustomBehavior File="FlyTo" X="-715.7305" Y="2952.588" Z="489.2115" />
+		 <CustomBehavior File="FlyTo" X="-822.5337" Y="3375.827" Z="465.1895" />
+		 <CustomBehavior File="FlyTo" X="-887.428" Y="3724.743" Z="450.2679" />
+		 <CustomBehavior File="FlyTo" X="-1251.701" Y="4295.41" Z="444.6941" />
+		 <CustomBehavior File="FlyTo" X="-254.8975" Y="4525.18" Z="503.3126" />
+		 <CustomBehavior File="FlyTo" X="-103.9245" Y="3779.699" Z="543.4345" />
+		 <CustomBehavior File="FlyTo" X="36.79641" Y="3050.822" Z="567.1516" />
+		 <CustomBehavior File="FlyTo" X="219.4214" Y="3032.896" Z="564.2943" />
+		 <CustomBehavior File="FlyTo" X="326.5811" Y="2509.331" Z="477.6589" />
+		 <CustomBehavior File="FlyTo" X="852.4297" Y="2683.73" Z="476.9404" />
+		 <CustomBehavior File="FlyTo" X="845.3393" Y="2850.387" Z="474.5369" />
+		 <CustomBehavior File="FlyTo" X="870.3676" Y="3149.996" Z="523.2368" />
+		 <CustomBehavior File="FlyTo" X="888.5978" Y="3329.129" Z="506.0892" />
+		 <CustomBehavior File="FlyTo" X="892.4579" Y="3371.677" Z="495.4068" />
+		 <CustomBehavior File="FlyTo" X="884.7104" Y="3698.341" Z="528.3339" />
+		 <CustomBehavior File="FlyTo" X="888.0481" Y="3730.986" Z="582.3404" />
+		 <CustomBehavior File="FlyTo" X="913.4656" Y="3938.335" Z="582.3406" />
+		 <CustomBehavior File="FlyTo" X="841.4334" Y="4125.826" Z="580.1197" />
+		 
+		 <CustomBehavior File="LoadProfile" ProfileName="Townlong Steppes.xml" />
+  </If>
+</QuestOrder>
+</HBProfile>

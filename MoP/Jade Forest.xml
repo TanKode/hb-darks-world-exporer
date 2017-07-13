@@ -1,0 +1,73 @@
+<HBProfile>
+<Name>The Jade Forest</Name>
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>1</MinLevel>
+<MaxLevel>91</MaxLevel>
+<Factions>99999</Factions>
+
+<MailGrey>false</MailGrey>
+<MailWhite>false</MailWhite>
+<MailGreen>false</MailGreen>
+<MailBlue>false</MailBlue>
+<MailPurple>false</MailPurple>
+
+<SellGrey>false</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Blackspots>
+</Blackspots>
+
+<QuestOrder>
+	<!-- <CustomBehavior File="UserSettings" LootMobs="False" TrainNewSkills="False" LearnFlightPaths="False" PullDistance="10" /> -->
+	<!-- Check if full achieve completed. -->
+	<If Condition="IsAchievementCompleted(6351)">
+		<CustomBehavior File="Message" Text="Explore The Jade Forest Complete, Switching Profiles." LogColor="Orange" />
+		<CustomBehavior File="LoadProfile" ProfileName="Krasarang Wilds.xml" />
+	</If>
+	<!-- Else Explore -->
+	<If Condition="!(IsAchievementCompleted(6351))">
+		<CustomBehavior File="Message" Text="Explore The Jade Forest Incomplete, Exploring The Jade Forest." />
+		<!-- Begin Pathing -->
+		 <CustomBehavior File="FlyTo" X="3091.78" Y="-485.3601" Z="728.4158" />
+		 <CustomBehavior File="FlyTo" X="3033.646" Y="-1157.711" Z="671.6218" />
+		 <CustomBehavior File="FlyTo" X="2780.93" Y="-1651.792" Z="636.3402" />
+		 <CustomBehavior File="FlyTo" X="2605.155" Y="-1988.406" Z="612.4491" />
+		 <CustomBehavior File="FlyTo" X="2418.623" Y="-2790.607" Z="600.9932" />
+		 <CustomBehavior File="FlyTo" X="2378.345" Y="-2962.694" Z="598.6797" />
+		 <CustomBehavior File="FlyTo" X="1934.394" Y="-2321.185" Z="539.7727" />
+		 <CustomBehavior File="FlyTo" X="2157.558" Y="-1808.738" Z="562.5367" />
+		 <CustomBehavior File="FlyTo" X="2432.685" Y="-1464.191" Z="576.079" />
+		 <CustomBehavior File="FlyTo" X="2252.537" Y="-858.1313" Z="651.2285" />
+		 <CustomBehavior File="FlyTo" X="2173.881" Y="-593.05" Z="680.2906" />
+		 <CustomBehavior File="FlyTo" X="2056.754" Y="-680.9497" Z="649.2433" />
+		 <CustomBehavior File="FlyTo" X="1823.427" Y="-1050.786" Z="591.6221" />
+		 <CustomBehavior File="FlyTo" X="1537.146" Y="-1585.903" Z="514.8686" />
+		 <CustomBehavior File="FlyTo" X="1473.124" Y="-1715.879" Z="496.9504" />
+		 <CustomBehavior File="FlyTo" X="1525.568" Y="-2307.586" Z="413.9946" />
+		 <CustomBehavior File="FlyTo" X="1214.401" Y="-2392.15" Z="385.3374" />
+		 <CustomBehavior File="FlyTo" X="891.8127" Y="-2473.739" Z="374.5767" />
+		 <CustomBehavior File="FlyTo" X="317.3107" Y="-2615.132" Z="427.3803" />
+		 <CustomBehavior File="FlyTo" X="23.32256" Y="-2812.63" Z="399.7968" />
+		 <CustomBehavior File="FlyTo" X="-470.8353" Y="-2525.864" Z="400.6403" />
+		 <CustomBehavior File="FlyTo" X="-94.38699" Y="-2159.314" Z="455.4379" />
+		 <CustomBehavior File="FlyTo" X="-406.5602" Y="-1683.716" Z="485.7961" />
+		 <CustomBehavior File="FlyTo" X="340.8535" Y="-1417.898" Z="567.1489" />
+		 <CustomBehavior File="FlyTo" X="799.4238" Y="-1251.885" Z="590.1486" />
+		 <CustomBehavior File="FlyTo" X="1189.622" Y="-926.6108" Z="510.8924" />
+		 <CustomBehavior File="FlyTo" X="1314.675" Y="-691.0516" Z="472.7915" />
+		 
+		<CustomBehavior File="LoadProfile" ProfileName="Krasarang Wilds.xml" />
+	</If>
+</QuestOrder>
+</HBProfile>
